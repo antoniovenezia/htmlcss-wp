@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Light', arial;
+}
+
+
+
+/* utility classes */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#fl{
+    float: left;
+    width: 185px;
+}
+
+#mid-float{
+    float: left;
+    width: 570px;
+    margin: 0 30px;
+}
+
+#fr{
+    float: right;
+    width: 185px;
+}
+
+
+
+
+/* header */
+
+header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 130px;
+    border-right: 1px solid hsl(0deg 0% 93%);
+    padding-right: 10px;
+}
+
+nav{
+    padding-top: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    color: hsl(0deg 0% 60%);
+}
+
+li:last-child{
+    margin-right: 0px;
+}
+
+
+
+
+/* MAIN */
+
+main{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    padding: 300px 300px 30px 50px;
+}
+
+.main-text{
+    color: white;
+    width: 600px;
+}
+
+
+
+/* 2nd part of page */
+
+article, #seconday-title{
+    width: 1000px; /* <---potrebbe essere facoltativo per come ho impostato i parametri successivi*/
+    margin: 0 auto;
+}
+
+#secondary-text{
+    font-size: 40px;
+}
+
+.subtitle{
+    color: hsl(0deg 0% 70%);
+    font-size: 18px;
+}
+
+.container{
+    width: 1000px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+
+.float-img1, .float-img2, .float-img3{
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(0deg 0% 80%); /*solo che non mi funziona :(*/
+    margin-bottom: 10px;
+    border: 1px solid hsl(0deg 0% 70%);
+    border-radius: 10px;
+}
+
+.float-img1{
+    background-image: url(../img/img-1.jpg);
+}
+
+.float-img2{
+    background-image: url(../img/banner-2.jpg);
+} 
+
+.float-img3{
+    background-image: url(../img/img-3.jpg);
+}
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+}
+
+#heart{
+    color: red;
+    font-size: 25px;
+}
+
